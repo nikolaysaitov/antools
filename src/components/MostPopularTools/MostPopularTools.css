@@ -1,0 +1,147 @@
+.popular__title h2 {
+  width: 455px;
+  height: 62px;
+  left: 493px;
+  top: 900px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  /* or 62px */
+
+  text-align: center;
+  margin: auto;
+
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 25px;
+}
+
+.popular__subtitle {
+  width: 427px;
+  height: 60px;
+  left: 507px;
+  top: 987px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  text-align: center;
+  margin: auto;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 90px;
+}
+
+.popular {
+  margin-top: 200px;
+}
+
+.popular__tools__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 15px;
+  justify-content: center;
+}
+
+.popular__tools__item {
+  padding: 33px;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.item__name {
+  display: flex;
+}
+
+.name__to {
+  margin-left: 30px;
+}
+.name__to_title h3 {
+  height: 36px;
+  left: 235px;
+  top: 1190px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  margin-bottom: 3px;
+  margin-top: 0px;
+
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.name__to_subtitle {
+  height: 27px;
+  left: 235px;
+  top: 1229px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: rgba(255, 165, 55, 0.55);
+  margin-bottom: 30px;
+}
+
+.item__about {
+  width: 326px;
+  height: 60px;
+  left: 141px;
+  top: 1286px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 30px;
+}
+
+
+.popular__tools__effect{
+    display: none;
+    background-color: rgba(40, 48, 54, 0.6);
+    position: absolute;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    -moz-filter: blur(50px);
+    -o-filter: blur(50px);
+    -ms-filter: blur(50px);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transition: all 1.15s ease 0s;
+}
+
+.popular__tools__effect::before {
+    content: "";
+    transition: all 0.5s ease 0s;
+    position: absolute;
+    border-radius: 50px;
+    background: #ff6e30;
+    right: 45px;
+    top: -45px;
+    height: 64px;
+    width: 64px;
+}
+
+.popular__tools__item:hover .popular__tools__effect{
+    display: block;
+}

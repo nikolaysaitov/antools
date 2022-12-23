@@ -1,0 +1,14 @@
+
+body {
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 500;
+
+	background-color: #1E252B;
+	height: 100%;
+}
+
+.container {
+  max-width: 1224px;
+	margin: 0px auto;
+}
