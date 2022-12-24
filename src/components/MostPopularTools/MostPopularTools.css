@@ -112,36 +112,92 @@
   margin-bottom: 30px;
 }
 
-
-.popular__tools__effect{
-    display: none;
-    background-color: rgba(40, 48, 54, 0.6);
-    position: absolute;
-    filter: blur(50px);
-    -webkit-filter: blur(50px);
-    -moz-filter: blur(50px);
-    -o-filter: blur(50px);
-    -ms-filter: blur(50px);
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    transition: all 1.15s ease 0s;
+.popular__tools__effect {
+  display: none;
+  background-color: rgba(40, 48, 54, 0.6);
+  position: absolute;
+  filter: blur(50px);
+  -webkit-filter: blur(50px);
+  -moz-filter: blur(50px);
+  -o-filter: blur(50px);
+  -ms-filter: blur(50px);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transition: all 1.15s ease 0s;
 }
 
 .popular__tools__effect::before {
-    content: "";
-    transition: all 0.5s ease 0s;
-    position: absolute;
-    border-radius: 50px;
-    background: #ff6e30;
-    right: 45px;
-    top: -45px;
-    height: 64px;
-    width: 64px;
+  content: "";
+  transition: all 0.5s ease 0s;
+  position: absolute;
+  border-radius: 50px;
+  background: #ff6e30;
+  right: 45px;
+  top: -45px;
+  height: 64px;
+  width: 64px;
 }
 
-.popular__tools__item:hover .popular__tools__effect{
-    display: block;
+.popular__tools__item:hover .popular__tools__effect {
+  display: block;
+}
+
+.item__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item__buttons_icon {
+  cursor: pointer;
+  margin-top: 6px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.item__buttons_like {
+  background: url(../../images/like.png) center no-repeat;
+  border: none;
+  width: 42px;
+  height: 42px;
+  margin-right: 15px;
+  transition: all 0.15s ease 0s;
+  padding: 0px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.item__buttons_folder {
+  background: url(../../images/folder.png) center no-repeat;
+  border: none;
+  width: 42px;
+  height: 42px;
+  margin-right: 15px;
+  transition: all 0.15s ease 0s;
+  padding: 0px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.item__buttons_like:hover {
+  background: url(../../images/like-red.png) center no-repeat;
+}
+
+.item__buttons_visit {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.55);
+  padding: 10px 30px;
+  transition: all 150ms ease-in-out;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.item__buttons_visit:hover {
+  background-color: #ff6e30;
+  border-radius: 8px;
+  padding: 10px 30px;
+  color: white;
 }
