@@ -46,6 +46,7 @@
   flex-wrap: wrap;
   gap: 50px 15px;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .popular__tools__item {
@@ -96,7 +97,7 @@
 }
 
 .item__about {
-  width: 326px;
+  max-width: 326px;
   height: 60px;
   left: 141px;
   top: 1286px;
@@ -200,4 +201,26 @@
   border-radius: 8px;
   padding: 10px 30px;
   color: white;
+}
+.button__center{
+  display: flex;
+  align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.button_load{
+  background: none;
+  width: 184px;
+  height: 64px;
+  border: 1px solid #FF6E30;
+  border-radius: 8px;
+  color: white;
+  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+cursor: pointer;
+
 }

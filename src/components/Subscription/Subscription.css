@@ -1,0 +1,45 @@
+.subscription{
+margin-top: 250px;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 240px;
+}
+
+.subscription__title h2 {
+
+    left: 493px;
+    top: 900px;
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    /* or 62px */
+  
+    text-align: center;
+    margin: auto;
+  
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 25px;
+  }
+
+  .subscription__subtitle p {
+    width: 427px;
+    height: 60px;
+    left: 507px;
+    top: 987px;
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+  
+    text-align: center;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 100px;
+  }

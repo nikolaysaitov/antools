@@ -1,0 +1,72 @@
+.newcomer__info h2 {
+  width: 401px;
+  height: 62px;
+  left: 108px;
+  top: 2682px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  /* or 62px */
+
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.newcomer__info p {
+  width: 427px;
+  height: 90px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.newcomer__container {
+  display: flex;
+  gap: 197px;
+  margin-bottom: 200px;
+}
+
+.newcomer__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 50px 24px;
+  grid-template-areas:
+    ". ."
+    ". .";
+  justify-items: center;
+}
+
+.newcomer__card {
+  width: 200px;
+}
+
+.item__buttons_explore {
+  border-color: #ff6e30;
+  color: #fff;
+
+  border: none;
+  text-decoration: none;
+  width: 198px;
+  height: 58px;
+
+
+  background: #ff6e30;
+  border-radius: 8px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+margin-top: 76px;
+cursor: pointer;
+}

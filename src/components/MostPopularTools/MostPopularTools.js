@@ -20,11 +20,14 @@ export default function MostPopularTools() {
          <Card img={require("../../images/figma.png")} name={'Figma'} subtitle={'Free'}/>
          <Card img={require("../../images/sketch.png")} name={'Sketch'} subtitle={'Trial & Paid'}/>
          <Card img={require("../../images/vsc.png")} name={'Visual Studio Code'} subtitle={'Free'}/>
-         <Card img={require("../../images/sketch.png")} name={'Sketch'} subtitle={'Trial & Paid'}/>
-         <Card img={require("../../images/sketch.png")} name={'Sketch'} subtitle={'Trial & Paid'}/>
-         <Card img={require("../../images/sketch.png")} name={'Sketch'} subtitle={'Trial & Paid'}/>
+         <Card img={require("../../images/notion.png")} name={'Sketch'} subtitle={'Free & Paid'}/>
+         <Card img={require("../../images/slack.png")} name={'Sketch'} subtitle={'Free & Paid'}/>
+         <Card img={require("../../images/invision.png")} name={'Sketch'} subtitle={'Free & Paid'}/>
           
             </div>
+          </div>
+          <div className="button__center" >
+              <button className='button_load' >Load more</button>
           </div>
         </div>
 
